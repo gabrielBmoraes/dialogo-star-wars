@@ -3,9 +3,8 @@
 Identificação de sentimentos em diálogos de Star Wars, Cálculo Computacional e Estatística, 1CCO/2023
 
 Integrantes:
-
-Gabriel Branco
-Rafael Rocha 
+Gabriel Branco,
+Rafael Rocha, 
 Rafael Scheneider
 
 Objetivo:
