@@ -421,7 +421,7 @@
 "420" "THREEPIO" "Mas Mestre Luke, que magia?
 "421" "LUKE" "Apenas diga a eles."
 "422" "THREEPIO" "Você vê, Mestre Luke; eles não acreditaram em mim. Apenas..."
-THREEPIO " "... como eu disse que eles não fariam. O que - o - o que está acontecendo! Oh! Oh, querido! Oh!"
+"423" "THREEPIO" "... como eu disse que eles não fariam. O que - o - o que está acontecendo! Oh! Oh, querido! Oh!"
 "424" "THREEPIO" "Coloque-me no chão! E-e- elp ! Mestre Luke! Artoo! Alguém, alguém, ajude! Mestre Luke, Artoo! Artoo, rápido! Faça alguma coisa, alguém! Oh! Ohhh !"
 "425" "THREEPIO" "Oh, oh, oh, oh! Graças a Deus."
 "426" "LUKE" "Obrigado, Threepio ."

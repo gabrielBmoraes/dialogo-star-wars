@@ -421,7 +421,7 @@
 "420" "THREEPIO" "But Master Luke, what magic?"
 "421" "LUKE" "Just tell them."
 "422" "THREEPIO" "You see, Master Luke; they didn't believe me. Just..."
-"423" "THREEPIO" "...like I said they wouldn't. What - what - what's going on! Oh! Oh dear! Oh!”
+"423" "THREEPIO" "...like I said they wouldn't. What - what - what's going on! Oh! Oh dear! Oh!"
 "424" "THREEPIO" "Put me down! Ee- elp! Master Luke! Artoo! Someone, someone, help! Master Luke, Artoo! Artoo, quick! Do something, someone! Oh! Ohhh!"
 "425" "THREEPIO" "Oh, oh, oh, oh! Thank God."
 "426" "LUKE" "Thanks, Threepio."

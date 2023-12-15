@@ -234,7 +234,7 @@
 "233" "BEN" "Rest up son, you've had a busy day. You're lucky you're still in one piece."
 "234" "LUKE" "Ben? Ben Kenobi! Boy, am I glad to see you!"
 "235" "BEN" "The Jundland Wastes are not to be traversed lightly. Tell me, young Luke, what brings you here?"
-"236" "LUKE" "Ah, this little droid! I think he's looking for his old master... I've never seen such devotion in a droid before... it seems there's no stopping him. He claims to be the property of an Obi-Wan Kenobi. Is he a relative of yours? Do you know who he's talking about?
+"236" "LUKE" "Ah, this little droid! I think he's looking for his old master... I've never seen such devotion in a droid before... it seems there's no stopping him. He claims to be the property of an Obi-Wan Kenobi. Is he a relative of yours? Do you know who he's talking about?"
 "237" "BEN" "Obi-Wan Kenobi... Obi-Wan? That's a name I haven't heard in a long time... a long time."
 "238" "LUKE" "I think my uncle knew him. He said he was dead."
 "239" "BEN" "Oh, he's not dead, no... not yet."
@@ -268,7 +268,7 @@
 "267" "BEN" "Now, let's see if we can't find out what you are, my little friend. And where you come from."
 "268" "LUKE" "I saw part of the message that he was..."
 "269" "BEN" "Looks like I found it."
-"270" "READ" "General Kenobi, years ago you served my father in the Clone Wars. Now he begs you to help him in his fight against the Empire. I regret that I cannot present my father's request to you in person, but my ship has fallen under attack and I fear that my mission to bring him to Alderaan has failed. I have placed information vital to the survival of the Rebellion in the memory systems of this R2 unit. My father will know how to recover You must deliver this droid safely to him on Alderaan. This is our most desperate hour. Help me, Obi-Wan Kenobi, you are my only hope.
+"270" "READ" "General Kenobi, years ago you served my father in the Clone Wars. Now he begs you to help him in his fight against the Empire. I regret that I cannot present my father's request to you in person, but my ship has fallen under attack and I fear that my mission to bring him to Alderaan has failed. I have placed information vital to the survival of the Rebellion in the memory systems of this R2 unit. My father will know how to recover You must deliver this droid safely to him on Alderaan. This is our most desperate hour. Help me, Obi-Wan Kenobi, you are my only hope."
 "271" "BEN" "You must learn the ways of the Force if you want to come with me to Alderaan."
 "272" "LUKE" "Alderaan? I'm not going to Alderaan. I have to go home. It's late, I'm ready for it."
 "273" "BEN" "I need your help, Luke. I'm getting too old for this kind of thing. She needs your help."
@@ -448,7 +448,7 @@
 "447" "THREEPIO" "He made a fair play. Yelling about it won't help you."
 "448" "HAN" "Let him have it. It's not wise to disturb a Wookiee."
 "449" "THREEPIO" "But sir, no one cares about disturbing a droid."
-"450" ​​"HAN" "That's because droids don't take people's arms off when they lose. Wookiees have been known to do that."
+"450" "HAN" "That's because droids don't take people's arms off when they lose. Wookiees have been known to do that."
 "451" "THREEPIO" "I understand, sir. I suggest a new strategy, Artoo. Let the Wookiee win."
 "452" "BEN" "Remember, a Jedi can feel the Force flowing through him."
 "453" "LUKE" "You mean you control your actions?"

@@ -448,7 +448,7 @@
 "447" "THREEPIO" "Sir, if I may have an opinion..."
 "448" "HAN" "I'm not really interested in your opinion, Threepio."
 "449" "READ" "There's something out there."
-"450" ​​"HAN" "Where?"
+"450" "HAN" "Where?."
 "451" "READ" "Outside, in the cave."
 "452" "THREEPIO" "There it is. Listen! Listen!"
 "453" "HAN" "I'm going outside."
@@ -676,7 +676,7 @@
 "675" "HAN" "I'm sorry too."
 "676" "LUKE" "No, Threepio is with them."
 "677" "LUKE" "Hang on. We're almost there."
-"678" "THREEPIO" "Mmmm. Oh, my. Uh, I, uh -- Take it off! I, uh, don't want to intrude here. I, no, no, no, no... Please don't get up. No!”
+"678" "THREEPIO" "Mmmm. Oh, my. Uh, I, uh -- Take it off! I, uh, don't want to intrude here. I, no, no, no, no... Please don't get up. No!"
 "679" "THREEPIO" "Stormtroopers? Here? We're in danger. I must tell the others. Oh, no! I've been shot!"
 "680" "LANDO" "Lord Vader."
 "681" "VADER" "You can take Captain Solo to Jabba the Hut after I have Skywalker."
