@@ -1,11 +1,16 @@
+# imports ----
 install.packages("syuzhet")
 library(syuzhet)
 
+install.packages("wordcloud")
+library(wordcloud)
+
+# análise dialogo - personagens ----
 caminho = getwd()
 
-episodioIV <- read.csv(paste(caminho, "/raw/SW_EpisodeIV_enUS.txt", sep = ""), sep="")
-episodioV <- read.csv(paste(caminho, "/raw/SW_EpisodeV_enUS.txt", sep = ""), sep="")
-episodioVI <- read.csv(paste(caminho, "/raw/SW_EpisodeVI_enUS.txt", sep = ""), sep="")
+episodioIV <- read.csv(paste(caminho, "raw/SW_EpisodeIV_enUS.txt", sep = ""), sep="")
+episodioV <- read.csv(paste(caminho, "raw/SW_EpisodeV_enUS.txt", sep = ""), sep="")
+episodioVI <- read.csv(paste(caminho, "raw/SW_EpisodeVI_enUS.txt", sep = ""), sep="")
 
 todosEpisodios <- rbind(episodioIV,episodioV)
 
@@ -28,5 +33,6 @@ for(i in 2:length(pers_prin)){
 
 barplot(table(df$character))
 
-#DETECÇÂO DE EMOÇÔES
+# detecção de emoções ----
 
+dialogos <- 
