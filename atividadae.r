@@ -47,20 +47,12 @@ texto3 <- tolower(readLines("C:/Users/rafae/OneDrive/Documentos/dialogo-star-war
 
 dialogos <- c(texto1, texto2, texto3)
 
-palavras_para_remover <- c( "ah", "this", "well", "but", "you", "it's", "and", "to", 
-                            "he's", "what", "I", "me", "my", "we", "with", "that", "the", 
-                            "it", "for", "on", "of", "is", "in", "a", "be", "not", "so", 
-                            "was", "at", "how", "you're", "if", "him", "he", "I'm", "your", 
-                            "there's", "there", "isn't", "are", "she's", "she", "sir", "sir", 
-                            "if", "there", "dont", "youre")
-
 falas <- str_match(dialogos, "\"[0-9]+\" \"[a-z]+\" \"(.*)\"")[, 2]
 falas <- gsub("\"", "", falas)
 falas <- falas[!is.na(falas)]
 
-falas_sem_palavras_indesejadas <- falas[!falas %in% palavras_para_remover]
-
-corpus <- Corpus(VectorSource(falas_sem_palavras_indesejadas))
+# Corpus
+corpus <- Corpus(VectorSource(falas))
 
 corpus <- tm_map(corpus, content_transformer(tolower))
 corpus <- tm_map(corpus, removePunctuation)
@@ -68,21 +60,25 @@ corpus <- tm_map(corpus, removeNumbers)
 corpus <- tm_map(corpus, removeWords, stopwords("en"))
 corpus <- tm_map(corpus, stripWhitespace)
 
-sentimentos <- get_sentiment(falas_sem_palavras_indesejadas, method = "syuzhet")
+sentimentos <- get_sentiment(falas, method = "syuzhet")
 
 sentimentos[is.na(sentimentos)] <- 0
 
 sentimentos <- sentimentos[!is.na(sentimentos) & sentimentos != 0]
 
-# wordcloud de sentimentos
-wordcloud(words = names(sentimentos),
-          freq = sentimentos,
-          min.freq = 1, 
-          scale = c(3, 0.5), 
-          colors = brewer.pal(8, "Dark2"),
-          random.order = FALSE)
+limiar_positivo <- 0.5
+limiar_negativo <- -0.5
 
-# wordcloud das falas
+rotulos_sentimento <- ifelse(sentimentos > limiar_positivo, "Positivo",
+                             ifelse(sentimentos < limiar_negativo, "Negativo", NA))
+
+
+rotulos_sentimento <- rotulos_sentimento[!is.na(rotulos_sentimento)]
+
+# Gráfico de conotação das palavras - Positivo x Negativo
+barplot(table(rotulos_sentimento))
+
+# Wordcloud das falas
 wordcloud(words = unlist(corpus),
           min.freq = 20, 
           scale = c(3, 0.5), 
